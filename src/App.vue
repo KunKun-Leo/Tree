@@ -1,7 +1,9 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
-import RealTree from './components/RealTree.vue';
+import RealTree from './components/RealTree.vue'
+import RealTree_1 from './components/RealTree_1.vue';
+
 </script>
 
 <template>
@@ -11,13 +13,14 @@ import RealTree from './components/RealTree.vue';
     <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
 
     <div class="wrapper">
-      <HelloWorld msg="You Fuck t!" />
+      <HelloWorld msg="Fuck it all" />
     </div>
   </header>
 
   <main>
     <!-- <TheWelcome /> -->
-    <RealTree />
+    <RealTree_1 />
+    <!-- <RealTree /> -->
   </main>
 </template>
 
